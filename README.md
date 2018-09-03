@@ -121,5 +121,5 @@ To run it for your case, please check the group_vars/all.yml file and fill the v
     number_of_servers - number of redis slaves + redis master
     port_redis - port used for redis communication
 
-To run the playbook run the command: ansible redis.yml
+To run the playbook run the command: ansible-playbook redis.yml
    
