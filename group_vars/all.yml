@@ -1,0 +1,9 @@
+---
+stack_region: us-west-1
+type_of_instance: t2.micro
+key_pem_name:jenkins
+aws_image: ami-ea26ce85
+aws_user: ec2-user
+security_group: codedeploy
+number_of_servers: 2
+port_redis: 6379

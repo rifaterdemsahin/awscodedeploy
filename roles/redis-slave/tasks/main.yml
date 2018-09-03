@@ -1,0 +1,9 @@
+---
+- name: Install Redis using yum
+  yum: name=redis state=installed enablerepo=epel
+
+- name: Copy the conf file
+  template: src=redis.conf.j2 dest=/etc/redis.conf mode=0644
+
+- name: Start Redis Service on Slave
+  service: name=redis state=started
