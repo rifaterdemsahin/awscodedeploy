@@ -122,4 +122,4 @@ To run it for your case, please check the group_vars/all.yml file and fill the v
     port_redis - port used for redis communication
 
 To run the playbook run the command: ansible-playbook redis.yml
-   
+   To see the demo you can use the https://drive.google.com/open?id=1piwMlYPGnE97-GEcBWuZWoJR1stHb_7b link.
